@@ -1,0 +1,5 @@
+curl --location 'https://shopkart-gw-dzzmpo.5sc6y6-1.usa-e2.cloudhub.io/llmv2/chat/completions' \
+--header 'client_id: d720f0ef69fa4398aa47367acce6cd45' \
+--header 'client_secret: D982D3e4c37f4B6D8633D82E18fB04bD' \
+--header 'Content-Type: application/json' \
+--data '{"model":"gemini/gemini-3-flash-preview","messages":[{"role":"user","content":"What is the status of order 5521?"}]}'
